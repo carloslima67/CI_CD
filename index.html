@@ -36,6 +36,22 @@
         a {
             color: #00f;
         }
+        .recipe-section {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        .recipe-section h2 {
+            color: #ff6347;
+        }
+        .recipe-ingredients, .recipe-steps {
+            margin: 1rem 0;
+        }
+        .recipe-ingredients ul, .recipe-steps ol {
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +63,32 @@
         <h2>Sobre Nós</h2>
         <p>Olá! Este é um site básico criado para demonstrar a estrutura fundamental de uma página HTML. Aqui, você pode encontrar informações simples e links úteis.</p>
         <p>Para mais informações, visite <a href="https://www.example.com" target="_blank">este link</a>.</p>
+        
+        <!-- Seção de Receita de Pudim -->
+        <div class="recipe-section">
+            <h2>Receita de Pudim</h2>
+            <h3>Ingredientes:</h3>
+            <div class="recipe-ingredients">
+                <ul>
+                    <li>1 lata de leite condensado</li>
+                    <li>2 latas de leite (utilize a lata do leite condensado para medir)</li>
+                    <li>3 ovos</li>
+                    <li>1 xícara de açúcar (para o caramelo)</li>
+                </ul>
+            </div>
+            <h3>Modo de Preparo:</h3>
+            <div class="recipe-steps">
+                <ol>
+                    <li>Preaqueça o forno a 180°C.</li>
+                    <li>Em uma panela, derreta o açúcar até formar um caramelo dourado. Despeje o caramelo em uma forma para pudim, espalhando uniformemente.</li>
+                    <li>Em um liquidificador, coloque o leite condensado, o leite e os ovos. Bata até ficar homogêneo.</li>
+                    <li>Despeje a mistura sobre o caramelo na forma.</li>
+                    <li>Cubra a forma com papel alumínio e coloque-a em uma assadeira com água (banho-maria).</li>
+                    <li>Leve ao forno e asse por cerca de 1 hora e 15 minutos, ou até que o pudim esteja firme.</li>
+                    <li>Deixe esfriar completamente antes de desenformar.</li>
+                </ol>
+            </div>
+        </div>
     </div>
 
     <footer>
